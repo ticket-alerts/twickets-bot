@@ -1,6 +1,6 @@
 # 🎟️ Twickets Bot Alerts — Ticket-Alerts.Live
 
-🚀 **Twickets Bot** from Ticket-Alerts.Live is the easiest and fastest way to get notified about ticket resales on Twickets. Whether you're chasing sold-out concerts, sports matches, or theatre shows — our bot gets you alerts **faster than Twickets’ own system** with only a one-time setup.  
+🚀 **Twickets Bot** from Ticket-Alerts.Live is the easiest and fastest way to get notified about ticket resales on Twickets. Whether you're chasing sold-out concerts, sports matches, or theatre shows — our bot gets you alerts **faster than Twickets’ own system** and without any technical setup.  
 
 🌐 **Website:** [ticket-alerts.live/twickets-bot](https://ticket-alerts.live/twickets-bot)
 
