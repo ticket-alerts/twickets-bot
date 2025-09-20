@@ -1,60 +1,55 @@
-# 🎟️ Twickets Bot Alerts — Ticket-Alerts.Live
+# 🎟️ Twickets bot alerts — Ticket-Alerts.Live
 
-🚀 **Twickets Bot** from Ticket-Alerts.Live is the easiest and fastest way to get notified about ticket resales on Twickets. Whether you're chasing sold-out concerts, sports matches, or theatre shows — our bot gets you alerts **faster than Twickets’ own system** and without any technical setup.  
+An easy to setup **Twickets bot** that watches resale listings and sends low-latency alerts for concerts, sports, and theatre. It leverages the **Twickets API** and can combine it with undocumented “unofficial” Twickets endpoints to improve coverage. Built-in **proxy IP rotation** helps reduce throttling and regional availability issues.
 
 🌐 **Website:** [ticket-alerts.live/twickets-bot](https://ticket-alerts.live/twickets-bot)
 
 ---
 
-## ✨ Key Features
+## Key features
 
-- ⚡ **Fastest Alerts**  
-  Our Twickets Bot continuously monitors resale listings every few seconds and notifies you instantly — often ahead of Twickets’ own alerts.
+- **Twickets API–driven monitoring**  
+  The **Twickets bot** prioritizes the **Twickets API** for stable data access and augments with additional endpoints when appropriate.
 
-- 🛠️ **No Technical Setup Required**  
-  You don’t need any coding skills. Just tell us the event, and we take care of the rest.  
+- **Built-in proxy IP rotation**  
+  Rotating outbound IPs to improve reliability, avoid noisy-neighbor throttling, and keep checks consistent across regions.
 
-- 🎯 **Focus on High-Demand Events**  
-  Optimized for the hottest and most popular sold-out events — concerts, sports, theatre, and more.  
+- **Timely alerts**  
+  Frequent checks and lightweight payloads aim for quick notifications when new tickets appear.
 
-- 📩 **Simple Alerts via Email or Push**  
-  Get direct links to listings delivered straight to your inbox or device — no extra apps needed.  
+- **Email or push notifications**  
+  Alerts include a direct link to the relevant Twickets listing.
 
----
-
-## 🔎 How It Works
-
-1. 🤖 **Bot Monitors Resale**  
-   You select the event, our bot watches the listing continuously.  
-
-2. 👀 **Spots New Tickets**  
-   It detects new availability, often before official alerts go out.  
-
-3. 📬 **Sends Instant Alerts**  
-   You get an immediate notification, enabling you to act quickly.  
-
-4. 🏃 **Click & Buy**  
-   Alert includes a direct link to the Twickets page — just click and purchase.  
+- **No setup burden**  
+  Provide an artist, team, show, or event URL; the bot handles the rest.
 
 ---
 
-## 💡 Why Choose Ticket-Alerts.Live?
+## How the Twickets bot works
 
-| Benefit                | Description                                             |
-|------------------------|---------------------------------------------------------|
-| 🚀 **Fastest Speed**      | Receive alerts instantly, not minutes later             |
-| ✅ **Easiest to Use**     | No technical setup — we handle everything               |
-| 🎯 **High-Demand Ready**  | Built for sold-out events where timing matters          |
-| 📩 **Simple Notifications** | Get email or push alerts — no third-party tools needed |
-
-For a full comparison with other Twickets alert services, check the detailed review on [Ticket-Alerts.Live]([https://ticket-alerts.live/twickets-bot](https://ticket-alerts.live/blog/review-of-twickets-bots)).
+1. **Select an event**  
+   Supply the artist/team/show or a Twickets URL.
+2. **Monitor via Twickets API**  
+   The **Twickets bot** polls the **Twickets API** and, when helpful, complementary endpoints.
+3. **Detect changes**  
+   New or updated listings are identified with debounce and backoff logic.
+4. **Notify**  
+   You receive an email/push alert with a direct link to Twickets.
 
 ---
 
-## ❓ Frequently Asked Questions
+## Notes
 
-- **How does it work?**  
-  Our AI-based system continuously scans Twickets and sends alerts when tickets become live.  
+- Prefers **official Twickets API** routes for reliability.
+- May use additional, publicly accessible (“unofficial”) endpoints to reduce gaps.
+- Uses **proxy IP rotation** with rate-limit awareness, retries, and exponential backoff.
+- Not affiliated with or endorsed by Twickets.
 
-- **Is it a subscription?**  
-  No — just a one-time payment for full access to the event alerts.
+For a side-by-side overview of different approaches, see our [review of Twickets bots](https://ticket-alerts.live/blog/review-of-twickets-bots).
+
+---
+
+## FAQ
+
+- **Is this a subscription?**  
+  No. It’s a one-time setup per event for receiving alerts.
